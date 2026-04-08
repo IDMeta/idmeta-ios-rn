@@ -2,7 +2,6 @@
 
 #import <React/RCTBridgeModule.h>
 @import Flutter;
-@import FlutterPluginRegistrant;
 
 @interface IdmetaIosRn : NSObject <RCTBridgeModule>
 
