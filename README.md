@@ -29,7 +29,7 @@ OR
 Note: Yarn Add is required for now for better automatic installation.
 
 ```sh
-yarn add  https://github.com/C4SI-0/idmeta-ios-rn.git
+yarn add  https://github.com/IDMeta/idmeta-ios-rn.git
 
 ```
 
