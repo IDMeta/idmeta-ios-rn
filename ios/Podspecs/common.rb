@@ -32,6 +32,9 @@ def generateFrameworksSpecProps(s, configuration)
     GoogleUtilities
     FBLPromises
     nanopb
+    IDLiveFaceCamera
+    IDLiveFaceDetection
+    IDLiveFaceIAD
   ]
   s.prepare_command = conflicting_pods.map { |fw| "rm -rf #{configuration}/#{fw}.xcframework" }.join("\n")
   s.vendored_frameworks = '**/*.xcframework'
